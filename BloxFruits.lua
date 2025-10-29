@@ -5,12 +5,15 @@ local Window = redzlib:MakeWindow({
   SubTitle = "by redz9999",
   SaveFolder = "testando | redz lib v5.lua"
 }) 
-  redzlib:SetTheme("Dark")
-Tab1:AddTextBox({
-  Name = "Name item",
-  Description = "1 Item on 1 Server", 
-  PlaceholderText = "item only",
-  Callback = function(Value)
-    
-  end
+
+Window:AddMinimizeButton({
+    Button = { Image = "rbxassetid://71014873973869", BackgroundTransparency = 0 },
+    Corner = { CornerRadius = UDim.new(35, 1) },
+})
+
+  Tab1:AddDiscordInvite({
+    Name = "Name Hub",
+    Description = "Join server",
+    Logo = "rbxassetid://18751483361",
+    Invite = "Link discord invite",
 })
