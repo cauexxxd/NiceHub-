@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "Title of the library", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "cauezxxd", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 
 --[[
 Name = <string> - The name of the UI.
