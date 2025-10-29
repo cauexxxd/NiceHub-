@@ -13,8 +13,9 @@ IntroIcon = <string> - URL to the image you want to use in the intro animation.
 Icon = <string> - URL to the image you want displayed on the window.
 CloseCallback = <function> - Function to execute when the window is closed.
 ]] 
+
 local Tab = Window:MakeTab({
-	Name = "Tab 1",
+	Name = "Home ",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
