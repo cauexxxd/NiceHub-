@@ -10,5 +10,4 @@ Tab1:AddDiscordInvite({
     Logo = "rbxassetid://18751483361",
     Invite = "Link discord invite",
 }) 
-
 local Tab1 = Window:MakeTab({"🏡Home", "cherry"})
