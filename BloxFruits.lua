@@ -5,10 +5,13 @@ local Window = redzlib:MakeWindow({
   SubTitle = "by redz9999",
   SaveFolder = "testando | redz lib v5.lua"
 }) 
+
+
 Tab1:AddDiscordInvite({
     Name = "Name Hub",
     Description = "Join server",
     Logo = "rbxassetid://18751483361",
     Invite = "Link discord invite",
 }) 
+
 local Tab1 = Window:MakeTab({"🏡Home", "cherry"})
